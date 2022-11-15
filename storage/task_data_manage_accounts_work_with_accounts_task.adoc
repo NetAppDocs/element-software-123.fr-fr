@@ -1,0 +1,122 @@
+---
+permalink: storage/task_data_manage_accounts_work_with_accounts_task.html 
+sidebar: sidebar 
+keywords: element, solidfire, accounts, create, delete, change, chap, view, edit 
+summary: 'Dans les systèmes de stockage SolidFire, les comptes utilisateurs permettent aux clients de se connecter aux volumes d"un nœud. Lors de la création d"un volume, celui-ci est affecté à un compte utilisateur spécifique.' 
+---
+= Travailler avec des comptes à l'aide du protocole CHAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dans les systèmes de stockage SolidFire, les locataires peuvent utiliser des comptes pour permettre aux clients de se connecter aux volumes d'un cluster. Un compte contient l'authentification CHAP (Challenge-Handshake Authentication Protocol) requise pour accéder aux volumes qui lui sont affectés. Lorsque vous créez un volume, il est affecté à un compte spécifique.
+
+Un compte peut comporter jusqu'à deux milliers de volumes qui lui sont attribués, mais un volume ne peut appartenir qu'à un seul compte.
+
+
+
+== Créez un compte
+
+Vous pouvez créer un compte pour autoriser l'accès aux volumes.
+
+Chaque nom de compte dans le système doit être unique.
+
+. Sélectionnez *gestion* > *comptes*.
+. Cliquez sur *Créer un compte*.
+. Saisissez un *Nom d'utilisateur*.
+. Dans la section *CHAP Settings*, entrez les informations suivantes :
++
+
+NOTE: Laissez les champs d'informations d'identification vides pour générer automatiquement l'un ou l'autre des mots de passe.
+
++
+** *Secret d'initiateur* pour l'authentification de session de nœud CHAP.
+** *Secret cible* pour l'authentification de session de nœud CHAP.
+
+
+. Cliquez sur *Créer un compte*.
+
+
+
+
+== Afficher les détails du compte
+
+Vous pouvez afficher l'activité de performances des comptes individuels dans un format graphique.
+
+Le graphique fournit des informations d'E/S et de débit pour le compte. Les niveaux d'activité moyenne et maximale sont indiqués par incréments de périodes de déclaration de 10 secondes. Ces statistiques comprennent l'activité de tous les volumes affectés au compte.
+
+. Sélectionnez *gestion* > *comptes*.
+. Cliquez sur l'icône actions d'un compte.
+. Cliquez sur *Afficher les détails*.
+
+
+Voici quelques-uns des détails :
+
+* *Statut* : état du compte. Valeurs possibles :
++
+** Active : un compte actif.
+** Verrouillé : un compte verrouillé.
+** Supprimé : compte supprimé et purgé.
+
+
+* *Volumes actifs* : nombre de volumes actifs affectés au compte.
+* *Compression* : le score d'efficacité de compression pour les volumes affectés au compte.
+* *Déduplication* : score d'efficacité de la déduplication pour les volumes affectés au compte.
+* *Provisionnement fin* : le score d'efficacité du provisionnement fin pour les volumes affectés au compte.
+* *Efficacité globale* : le score global d'efficacité pour les volumes affectés au compte.
+
+
+
+
+== Modifier un compte
+
+Vous pouvez modifier un compte pour modifier son statut, modifier les secrets CHAP ou modifier le nom du compte.
+
+La modification des paramètres CHAP d'un compte ou la suppression d'initiateurs ou de volumes d'un groupe d'accès peut entraîner une perte inattendue de l'accès aux volumes. Pour vérifier que l'accès au volume ne sera pas perdu de façon inattendue, déconnectez toujours les sessions iSCSI qui seront affectées par une modification de compte ou de groupe d'accès. Vérifiez également que les initiateurs peuvent se reconnecter aux volumes après la modification des paramètres de l'initiateur et des paramètres du cluster.
+
+
+IMPORTANT: Les volumes persistants associés à des services de gestion sont attribués à un nouveau compte créé lors de l'installation ou de la mise à niveau. Si vous utilisez des volumes persistants, ne modifiez pas ou ne supprimez pas leur compte associé.
+
+. Sélectionnez *gestion* > *comptes*.
+. Cliquez sur l'icône actions d'un compte.
+. Dans le menu qui s'affiche, sélectionnez *Modifier*.
+. *Facultatif:* modifiez le *Nom d'utilisateur*.
+. *Facultatif :* cliquez sur la liste déroulante *Statut* et sélectionnez un autre état.
++
+
+IMPORTANT: Si vous changez l'état à *Locked*, toutes les connexions iSCSI au compte sont résiliées et le compte n'est plus accessible. Les volumes associés au compte sont conservés, mais ils ne sont pas détectables iSCSI.
+
+. *Facultatif:* sous *Paramètres CHAP*, modifiez les informations d'identification *Secret initiateur* et *Secret cible* utilisées pour l'authentification de session de nœud.
++
+
+NOTE: Si vous ne modifiez pas les informations d'identification *CHAP Settings*, elles restent les mêmes. Si vous ne renseignez pas les champs d'informations d'identification, le système génère de nouveaux mots de passe.
+
+. Cliquez sur *Enregistrer les modifications*.
+
+
+
+
+== Supprimer un compte
+
+Vous pouvez supprimer un compte lorsqu'il n'est plus nécessaire.
+
+Supprimez et supprimez tous les volumes associés au compte avant de supprimer le compte.
+
+
+IMPORTANT: Les volumes persistants associés à des services de gestion sont attribués à un nouveau compte créé lors de l'installation ou de la mise à niveau. Si vous utilisez des volumes persistants, ne modifiez pas ou ne supprimez pas leur compte associé.
+
+. Sélectionnez *gestion* > *comptes*.
+. Cliquez sur l'icône actions du compte à supprimer.
+. Dans le menu qui s'affiche, sélectionnez *Supprimer*.
+. Confirmez l'action.
+
+
+
+
+== Trouvez plus d'informations
+
+* https://www.netapp.com/data-storage/solidfire/documentation["Page Ressources SolidFire et Element"^]
+* https://docs.netapp.com/us-en/vcp/index.html["Plug-in NetApp Element pour vCenter Server"^]
+
