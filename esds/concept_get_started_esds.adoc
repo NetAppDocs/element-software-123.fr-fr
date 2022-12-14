@@ -164,7 +164,7 @@ image::../media/esds_installation_workflow.png[Affiche le flux de travail d'inst
 
 
 
-== Classification dynamique des nœuds (NOUVEAUTÉ dans Element 12.3.1 !)
+== Classification dynamique des nœuds (_NEW dans Element 12.3.1!_)
 
 L'évaluation dynamique des nœuds est une nouvelle fonctionnalité de l'élément 12.3.1, qui vous permet d'exploiter 24 processeurs pris en charge par plate-forme ESDS plutôt que le modèle actuel d'un processeur unique par plate-forme.
 

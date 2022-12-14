@@ -13,12 +13,12 @@ summary: 'Avant d"installer SolidFire ESDS, assurez-vous que vous effectuez les 
 [role="lead"]
 Avant d'installer SolidFire ESDS, assurez-vous que vous effectuez les vérifications nécessaires et que votre environnement répond aux exigences de configuration, d'adressage IP et de mise en réseau.
 
-.<fort> installez le matériel requis</strong>
+.*Installer le matériel requis*
 * Installez le serveur pris en charge. Voir https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU#welcome["Matrice d'interopérabilité NetApp (connexion requise)"^] pour en savoir plus.
 * Vérifiez que la configuration matérielle est équilibrée et que tous les canaux sont remplis. Pour plus d'informations sur l'optimisation de la bande passante, reportez-vous au https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/SolidFire_Enterprise_SDS/How_to_balance_memory_and_maximize_bandwidth_for_your_hardware_configurations["Article de la base de connaissances"^] (connexion requise).
 
 
-.<strong> configure l'hôte (nœud)</strong>
+.*Configurer l'hôte (nœud)*
 * Installez RHEL en fonction des versions prises en charge répertoriées dans https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU#welcome["Matrice d'interopérabilité NetApp (connexion requise)"^].
 * Configurez un serveur NTP (Network Time Protocol) à utiliser avec tous les hôtes de votre réseau.
 * Lorsque vous sélectionnez la destination d'installation, sélectionnez le bouton radio pour configurer manuellement le partitionnement du système de fichiers. Sur la page *Partitionnement manuel*, utilisez les boutons *+* et *-* pour supprimer toutes les partitions existantes et créer de nouvelles partitions et les dimensionner en suivant les recommandations indiquées ici. L'utilisation du schéma de partitionnement LVM par défaut vous permet de redimensionner facilement plus tard, si nécessaire.
@@ -106,7 +106,7 @@ rhel-7-server-extras-rpms
 
 
 
-.<forte> installer le logiciel requis</strong>
+.*Installer le logiciel requis*
 * Installez Ansible, Git, Podman et Python 3.0.
 +
 
@@ -114,7 +114,7 @@ NOTE: Pour Element 12.3, la version Podman prise en charge est 1.6.4.
 
 
 
-.<strong> Vérification que votre configuration correspond aux exigences NetApp&#8217;s en matière d'installation de SolidFire ESDS</strong>
+.*Vérifiez que votre configuration correspond aux exigences de NetApp pour l'installation de SolidFire ESDS*
 * Utilisez la configuration ESDS de SolidFire répertoriée dans le https://mysupport.netapp.com/matrix/#welcome["Matrice d'interopérabilité NetApp (IMT)"] comme référence.
 +
 
@@ -167,7 +167,7 @@ NOTE: Même après avoir commencé à utiliser le système ESDS de SolidFire, vo
 
 
 
-.<solide> compréhension des besoins en matière de réseau et d'adresse IP</strong>
+.*Comprendre les exigences en matière de réseau et d'adresse IP*
 * Familiarisez-vous avec la configuration et la gestion des réseaux et des interfaces réseau dans RHEL. Voir la https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/index["Documentation Red Hat"^].
 * Configurez votre réseau en suivant les exigences IP détaillées ici :
 +
@@ -244,7 +244,7 @@ IMPORTANT: L'illustration ci-dessous est destinée à être un exemple. Votre ma
 * Remplacez la MTU du port de commutateur par 9216 octets.
 
 
-.<forte> Autoriser des ports spécifiques via votre datacenter et#8217;s pare-feu</strong>
+.*Autoriser des ports spécifiques via le pare-feu de votre datacenter*
 * Si `firewalld` Est activé sur le nœud de stockage exécutant RHEL, assurez-vous que les ports suivants sont ouverts, de sorte que vous puissiez gérer le système à distance, permettre aux clients externes à votre centre de données de se connecter aux ressources, et assurez-vous que les services internes peuvent fonctionner correctement :
 +
 [cols="4*"]
@@ -429,7 +429,7 @@ firewall-cmd –-reload
 ----
 
 
-.<fort> configurez votre réseau hôte</strong>
+.*Configurer votre réseau hôte*
 * Configurez votre réseau hôte à l'aide du link:task_esds_configure_the_interface_config_files.html["et des meilleures pratiques"^] fournies.
 +
 
@@ -437,7 +437,7 @@ IMPORTANT: Vous devez suivre les étapes de configuration de votre réseau hôte
 
 
 
-.<fort> exigences supplémentaires</strong>
+.*Compléter les exigences supplémentaires*
 * Installez un seul recueil qui sera utilisé par le support NetApp pour la collecte des journaux de l'hôte. Vous pouvez installer une collecte à partir de https://mysupport.netapp.com/site/tools/tool-eula/activeiq-onecollect["ici"^]. Vous devez disposer d'un compte NetApp pour accéder au téléchargement. Vous pouvez également trouver le Guide d'installation de One Collect et les notes de version au même emplacement.
 +
 
