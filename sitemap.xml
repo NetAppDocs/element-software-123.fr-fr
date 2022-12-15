@@ -363,14 +363,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/concepts/concept_intro_clusters.html</loc>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/storage/concept_intro_clusters.html</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/storage/concept_intro_clusters.html</loc>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/concepts/concept_intro_clusters.html</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
@@ -391,13 +391,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/concepts/concept_intro_management_node.html</loc>
-      
-      <lastmod>2022-11-15T19:26:25+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/fr-fr/element-software-123/storage/concept_intro_management_node.html</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
@@ -405,7 +398,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/concepts/concept_intro_management_services_for_afa.html</loc>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/concepts/concept_intro_management_node.html</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
@@ -413,6 +406,13 @@
   
     <url>
       <loc>https://docs.netapp.com/fr-fr/element-software-123/storage/concept_intro_management_services_for_afa.html</loc>
+      
+      <lastmod>2022-11-15T19:26:25+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/concepts/concept_intro_management_services_for_afa.html</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
@@ -839,6 +839,13 @@
     </url>
   
     <url>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/storage/</loc>
+      
+      <lastmod>2022-11-15T19:26:25+00:00</lastmod>
+      
+    </url>
+  
+    <url>
       <loc>https://docs.netapp.com/fr-fr/element-software-123/api/</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
@@ -846,7 +853,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/concepts/</loc>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/hccstorage/</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
@@ -867,21 +874,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/storage/</loc>
-      
-      <lastmod>2022-11-15T19:26:25+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/hccstorage/</loc>
-      
-      <lastmod>2022-11-15T19:26:25+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/fr-fr/element-software-123/hardware/</loc>
+      
+      <lastmod>2022-11-15T19:26:25+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/concepts/</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
@@ -930,14 +930,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/concepts/reference_data_manage_volumes_qos_limits.html</loc>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/storage/reference_data_manage_volumes_qos_limits.html</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/storage/reference_data_manage_volumes_qos_limits.html</loc>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/concepts/reference_data_manage_volumes_qos_limits.html</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
@@ -4136,14 +4136,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/api/reference_trademark.html</loc>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/storage/reference_trademark.html</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/storage/reference_trademark.html</loc>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/api/reference_trademark.html</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
@@ -4152,7 +4152,7 @@
     <url>
       <loc>https://docs.netapp.com/fr-fr/element-software-123//search.html</loc>
       
-      <lastmod>2022-11-21T14:46:30+00:00</lastmod>
+      <lastmod>2022-12-15T12:18:32+00:00</lastmod>
       
     </url>
   
@@ -4969,14 +4969,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/setup/task_post_deploy_access_the_element_software_user_interface.html</loc>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/storage/task_post_deploy_access_the_element_software_user_interface.html</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/storage/task_post_deploy_access_the_element_software_user_interface.html</loc>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/setup/task_post_deploy_access_the_element_software_user_interface.html</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
@@ -5172,14 +5172,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/setup/task_setup_configure_fqdn_web_ui_access.html</loc>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/hccstorage/task-setup-configure-fqdn-web-ui-access.html</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/element-software-123/hccstorage/task-setup-configure-fqdn-web-ui-access.html</loc>
+      <loc>https://docs.netapp.com/fr-fr/element-software-123/setup/task_setup_configure_fqdn_web_ui_access.html</loc>
       
       <lastmod>2022-11-15T19:26:25+00:00</lastmod>
       
