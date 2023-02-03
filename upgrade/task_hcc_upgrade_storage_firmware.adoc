@@ -52,7 +52,7 @@ NOTE: Lorsque vous acceptez le CLUF, il est enregistré pour toutes les mises à
 
 
 
-NOTE: Pour obtenir une matrice complète de micrologiciel et de micrologiciel de pilote pour votre matériel, reportez-vous à la section https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["Article de cette base de connaissances"^] (connexion requise).
+NOTE: Pour obtenir une matrice complète de micrologiciel et de micrologiciel de pilote pour votre matériel, reportez-vous à la section link:../hardware/fw_storage_nodes.html["Versions de firmware de stockage prises en charge pour les nœuds de stockage SolidFire"]
 
 .Options de mise à niveau
 Choisissez l'une des options de mise à niveau du micrologiciel de stockage suivantes :

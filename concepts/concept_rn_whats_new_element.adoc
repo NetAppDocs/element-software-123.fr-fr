@@ -217,5 +217,5 @@ Vous pouvez maintenant rechercher des problèmes connus sur le https://mysupport
 * https://docs.netapp.com/us-en/element-software/index.html["Documentation SolidFire et Element"^]
 * http://docs.netapp.com/sfe-122/index.jsp["Centre de documentation des logiciels SolidFire et Element pour les versions précédentes"^]
 * https://www.netapp.com/us/documentation/hci.aspx["Page Ressources NetApp HCI"^]
-* https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["Versions du micrologiciel et du pilote pour les logiciels NetApp HCI et NetApp Element"^]
+* link:../hardware/fw_storage_nodes.html["Versions de firmware de stockage prises en charge pour les nœuds de stockage SolidFire"] _NOUVEAU_
 
