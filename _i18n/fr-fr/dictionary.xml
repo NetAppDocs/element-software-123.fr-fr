@@ -9133,9 +9133,6 @@
   <block id="02c521e9d0cf5b0c627a3117299416a5" category="paragraph">Indique si le nœud prend en charge le chiffrement de disque.</block>
   <block id="25145b9df35ba6ef8386c92cbc7e67aa" category="summary">Vous pouvez mettre hors tension un cluster entier après avoir contacté le support NetApp et avoir effectué les étapes préliminaires.</block>
   <block id="d3dc741b1e26e016be52c0a55b325fda" category="doc">Mettez un cluster hors tension</block>
-  <block id="7e75e710e04194aacb5b7f056ec5e471" category="paragraph">Préparer le cluster à l'arrêt en procédant comme suit :</block>
-  <block id="7bf4e8d030b2c47061505b2052e7e3c8" category="list-text">Arrête toutes les E/S.</block>
-  <block id="c1fc137e8581e89d2a694ed758b29c11" category="list-text">Déconnectez toutes les sessions iSCSI.</block>
   <block id="52774163f10fbc297ca1a2188d7b81c9" category="list-text">Accédez à l'adresse IP virtuelle de gestion (MVIP) du cluster pour ouvrir l'interface utilisateur Element.</block>
   <block id="ecb5391ff71658726fe4fbade2f9af5e" category="list-text">Notez les nœuds répertoriés dans la liste nœuds.</block>
   <block id="7a9ac18ef12501dac2ab0cc718dd03a4" category="list-text">Exécutez la méthode de l'API Shutdown avec l'option halt spécifiée sur chaque ID de noeud du cluster.</block>
@@ -11341,7 +11338,6 @@
   <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Plug-in Element vCenter version 5.0 ou ultérieure</block>
   <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">Depuis le plug-in Element pour VMware vCenter Server 5.0, cette procédure de mise à niveau couvre les scénarios de mise à niveau suivants :</block>
   <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">Vous effectuez une mise à niveau vers le plug-in Element pour vCenter Server 5.0.</block>
-  <block id="b5bcaf2164ee5f3d1a22b016747f08e1" category="list-text">Vous mettez à niveau vers un client Web HTML5 8.0 ou 7.0.</block>
   <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">Le plug-in Element pour vCenter 5.0 et les versions ultérieures n'est pas compatible avec vCenter Server 6.7 et 6.5.</block>
   <block id="6243a047f7c7bcc2f2961e8a74f1b5c7" category="admonition">Lorsque vous effectuez une mise à niveau depuis le plug-in Element pour vCenter Server 4.x vers la version 5.0, les clusters déjà configurés avec le plug-in sont perdus, car les données ne peuvent pas être copiées à partir d'une instance vCenter vers un plug-in distant. Vous devez ajouter à nouveau les clusters au plug-in distant. Il s'agit d'une activité ponctuelle lors de la mise à niveau d'un plug-in local vers un plug-in distant.</block>
   <block id="e6d87bbd73a5a86fcf1e6cbc75296808" category="open-title">Plug-in Element vCenter 4.10 ou version antérieure</block>
@@ -12655,11 +12651,23 @@
   <block id="6488398a09e5e3619c68849839032852" category="list-text">Linux : vous avez des antécédents avec les systèmes Linux.</block>
   <block id="88a314dd47a5b577c9b424a096c7a9e8" category="list-text">Mise en réseau : vous connaissez bien les réseaux de serveurs et le stockage en réseau, notamment les adresses IP, les masques de réseau et les passerelles.</block>
   <block id="229a83df3c23d08a8495591aab99bf5b" category="paragraph">Déployer et installer l'image RTFI International Organization for Standardization (ISO) et effectuer le processus RTFI :</block>
-  <block id="4761cf42d3167c91f942aaa5770bce7b" category="list-text"><block ref="4761cf42d3167c91f942aaa5770bce7b" category="inline-xref-macro-rx"></block></block>
-  <block id="8e03dc636d7913fabfabd316d5e54ac0" category="list-text"><block ref="8e03dc636d7913fabfabd316d5e54ac0" category="inline-xref-macro-rx"></block></block>
-  <block id="82deed01641c36ab7f885c50d27dcaea" category="list-text"><block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block></block>
   <block id="fe87b6b5d8e86013cf5abe3db7879c77" category="list-text">Secure efface tous les lecteurs sélectionnés.</block>
-  <block id="98f034cb87c1c327b13fbbbb31bc622b" category="paragraph">Pour plus d'informations sur la création d'une clé USB ou sur l'utilisation du contrôleur BMC pour exécuter le processus RTFI, reportez-vous à la section <block ref="4761cf42d3167c91f942aaa5770bce7b" category="inline-xref-macro-rx"></block>.</block>
   <block id="a386fc287fd28e52c07d586cfb7aa08b" category="admonition">Toutes les données et les informations de configuration sont effacées définitivement du nœud après l'exécution du processus. Si vous choisissez de ne pas continuer, vous êtes dirigé vers le <block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block>.</block>
   <block id="d9730da4fb3635f5ccd1c078266c9334" category="paragraph">Si vous avez rencontré un message d'erreur pendant le processus RTFI, reportez-vous à la section <block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block>.</block>
+  <block id="61517793d4523320c7cd75e303ad36ff" category="list-text">Vous mettez à niveau vers un client Web HTML5 8.0 ou 7.0.</block>
+  <block id="57d4d715f0b6238380a88647e5064ab7" category="paragraph">Pour mettre l'ensemble du cluster hors tension, effectuez la procédure suivante.</block>
+  <block id="69824b5487e4b72a56fe97cb153b7404" category="list-text">(Facultatif) Contactez le support NetApp pour obtenir de l'aide concernant la réalisation des étapes préliminaires.</block>
+  <block id="f901f3a344a86528165d6bab6500fbc5" category="list-text">Vérifiez que toutes les E/S sont arrêtées.</block>
+  <block id="f0b8c58f8c65aac7a69a51384ac1a649" category="list-text">Déconnecter toutes les sessions iSCSI :</block>
+  <block id="391aec42faef3b52d4eaaefa153733b2" category="paragraph">Lorsque vous redémarrez le cluster, vous devez suivre certaines étapes pour vérifier que tous les nœuds sont mis en ligne :</block>
+  <block id="56312700a2d03ce6cacae049f3294807" category="list-text">Vérifiez que tous les niveaux de gravité critiques et<block ref="945c53fff9195b4e69a31c30b6a268c6" prefix=" " category="inline-code"></block> les défaillances de cluster ont été résolues.</block>
+  <block id="6331b65d2bb9f0f39b6e8331e5b2c669" category="list-text">Attendez 10 à 15 minutes que le cluster se stabilise.</block>
+  <block id="301bf6ea727a40a8d5cc8608cc0c41d7" category="list-text">Commencez à amener les hôtes pour accéder aux données.</block>
+  <block id="c192e3c2dbd374233d4685406db01520" category="paragraph">Si vous souhaitez consacrer plus de temps à la mise sous tension des nœuds et à la vérification de leur bon fonctionnement après la maintenance, contactez le support technique pour obtenir de l'aide afin de retarder la synchronisation des données et d'éviter une synchronisation inutile des bacs.</block>
+  <block id="eef615f9029df3b19885b836d67d03a3" category="inline-link">Comment mettre hors tension et hors tension en toute simplicité un cluster de stockage NetApp SolidFire/HCI</block>
+  <block id="b8c22947a9d726cf79f399d361ecc7a2" category="paragraph"><block ref="b8c22947a9d726cf79f399d361ecc7a2" category="inline-link-rx"></block></block>
+  <block id="51de7a2a44178422229997edab051ac7" category="list-text"><block ref="51de7a2a44178422229997edab051ac7" category="inline-xref-macro-rx"></block></block>
+  <block id="8f047e2b521fd8a37be46c7a429ab25b" category="list-text"><block ref="8f047e2b521fd8a37be46c7a429ab25b" category="inline-xref-macro-rx"></block></block>
+  <block id="c2350b958761f326a00bd673fc30fdae" category="list-text"><block ref="c2350b958761f326a00bd673fc30fdae" category="inline-xref-macro-rx"></block></block>
+  <block id="4de84bc0dceded350b6aa7db34f7e00d" category="paragraph">Pour plus d'informations sur la création d'une clé USB ou sur l'utilisation du contrôleur BMC pour exécuter le processus RTFI, reportez-vous à la section <block ref="51de7a2a44178422229997edab051ac7" category="inline-xref-macro-rx"></block>.</block>
 </blocks>
