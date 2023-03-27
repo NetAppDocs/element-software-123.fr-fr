@@ -21,7 +21,7 @@ Vous pouvez mettre à jour l'enregistrement du plug-in sur vCenter Server Virtua
 Cette procédure de mise à niveau couvre les scénarios de mise à niveau suivants.
 
 
-NOTE: Les services de gestion 2.22.7 comprennent le plug-in NetApp Element pour VMware vCenter Server 5.0 qui contient le plug-in distant. Si vous utilisez le plug-in Element, nous vous recommandons de mettre à niveau vers la version 5.0 afin de respecter la directive VMware qui supprime la prise en charge des plug-ins locaux. https://kb.vmware.com/s/article/87880["En savoir plus >>"^]. Si vous n'utilisez pas le plug-in, il s'agit d'une mise à niveau facultative.
+NOTE: Services de gestion 2.22.7 inclut Element Plug-in pour vCenter Server 5.0 qui contient le plug-in distant. Si vous utilisez le plug-in Element, vous devez effectuer une mise à niveau vers les services de gestion version 2.22.7 ou ultérieure pour vous conformer à la directive VMware qui supprime le support des plug-ins locaux. https://kb.vmware.com/s/article/87880["En savoir plus >>"^].
 
 [role="tabbed-block"]
 ====
@@ -164,8 +164,8 @@ Vous devriez voir les détails de la version suivante ou les détails d'une vers
 +
 [listing]
 ----
-NetApp Element Plug-in Version: 5.0
-NetApp Element Plug-in Build Number: 37
+NetApp Element Plug-in Version: 5.1
+NetApp Element Plug-in Build Number: 12
 ----
 
 

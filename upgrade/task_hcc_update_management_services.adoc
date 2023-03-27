@@ -24,7 +24,7 @@ Depuis la version Element 11.3, la conception du nœud de gestion a été modifi
 
 [NOTE]
 ====
-* Les services de gestion 2.22.7 comprennent le plug-in NetApp Element pour VMware vCenter Server 5.0 qui contient le plug-in distant. Si vous utilisez le plug-in Element, nous vous recommandons de mettre à niveau vers la version 5.0 afin de respecter la directive VMware qui supprime la prise en charge des plug-ins locaux. https://kb.vmware.com/s/article/87880["En savoir plus >>"^]. Si vous n'utilisez pas le plug-in, il s'agit d'une mise à niveau facultative.
+* Services de gestion 2.22.7 inclut Element Plug-in pour vCenter Server 5.0 qui contient le plug-in distant. Si vous utilisez le plug-in Element, vous devez effectuer une mise à niveau vers les services de gestion version 2.22.7 ou ultérieure pour vous conformer à la directive VMware qui supprime le support des plug-ins locaux. https://kb.vmware.com/s/article/87880["En savoir plus >>"^].
 * Pour connaître les dernières notes de version des services de gestion décrivant les principaux services, les nouvelles fonctionnalités, les correctifs et les solutions de contournement pour chaque offre de service, consultez la section https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["les notes de version des services de gestion"^]
 
 
