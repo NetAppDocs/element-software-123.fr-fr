@@ -30,7 +30,7 @@ WARNING: Pour les clusters de stockage 100 % Flash SolidFire, le chiffrement log
 
 == Vérifiez le chiffrement des données au repos
 
-Pour voir l'état actuel du chiffrement au repos et/ou logiciel au repos sur le cluster, utilisez le link:../api/reference_element_api_getclusterinfo.html["GetClusterInfo"^] méthode. Vous pouvez utiliser le link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["GetSoftwareEncryptionAtRestInfo"^] méthode d'obtention des informations que le cluster utilise pour chiffrer les données au repos.
+Pour voir l'état actuel du chiffrement au repos et/ou logiciel au repos sur le cluster, utilisez le link:../api/reference_element_api_getclusterinfo.html["GetClusterInfo"] méthode. Vous pouvez utiliser le link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["GetSoftwareEncryptionAtRestInfo"] méthode d'obtention des informations que le cluster utilise pour chiffrer les données au repos.
 
 
 NOTE: Le tableau de bord de l'interface utilisateur du logiciel Element sur `https://<MVIP>/` à l'heure actuelle, le chiffrement des données au repos est uniquement affiché pour le chiffrement matériel.

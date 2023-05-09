@@ -167,7 +167,6 @@
   <block id="fa086ddf62bedd344204fceb97eb97b1" category="paragraph">KmipKeyServer</block>
   <block id="1fbb4be359a7a5600faaa14367914cac" category="paragraph">Objet contenant des détails sur le serveur de clés demandé.</block>
   <block id="64ce33c3af0564919d68824260f9d7c0" category="inline-link-macro">KeyServerKmip</block>
-  <block id="0971c717c82e5a2659fd8ee2d73d170d" category="paragraph"><block ref="0971c717c82e5a2659fd8ee2d73d170d" category="inline-link-macro-rx"></block></block>
   <block id="685382cd74c3ec01c39239f301fc4e03" category="paragraph">11.7</block>
   <block id="13e35f8a95635b393118833216945de5" category="summary">Vous pouvez utiliser la méthode setconfig pour définir les informations sur le réseau et le cluster du nœud. Cette méthode inclut les mêmes paramètres dans une méthode API unique qui sont disponibles avec les méthodes SetClusterConfig et SetNetworkConfig. Seuls les champs que vous souhaitez modifier doivent être inclus avec cette méthode.</block>
   <block id="40c0308f9923fd5a8726b54cc8ba3137" category="doc">Setconfig</block>
@@ -313,7 +312,6 @@
   <block id="03802882f3028ad844735aaf9803b423" category="paragraph">Identifiant unique de l'utilisateur.</block>
   <block id="3f94bd0ec37d383d1f37803b50ec6f49" category="paragraph">Liste des informations de session pour les sessions d'authentification.</block>
   <block id="9a43554262146ce04817985e50c7f70c" category="inline-link-macro">AuthSessionInfo</block>
-  <block id="b1bff35225b1453efa974801b476caff" category="paragraph"><block ref="b1bff35225b1453efa974801b476caff" category="inline-link-macro-rx"></block></block>
   <block id="95ef58255bbe4484f67ef714353a0a4f" category="summary">Vous pouvez utiliser la méthode ListQoSPolicies pour répertorier les paramètres de toutes les stratégies QoS sur le système.</block>
   <block id="b247897827692623df3386b199ef7d11" category="doc">ListQoSPolicies</block>
   <block id="5db33bf5e7095e4d494fee258258502a" category="paragraph">Vous pouvez utiliser le<block ref="b247897827692623df3386b199ef7d11" prefix=" " category="inline-code"></block> Méthode permettant de lister les paramètres de toutes les règles de QoS sur le système.</block>
@@ -695,7 +693,6 @@
   <block id="56bb1086d311276932b932008551faad" category="paragraph">Vous pouvez utiliser le<block ref="7f3b1babd1f170f73cb0ff4719c65294" prefix=" " category="inline-code"></block> méthode de suppression du chiffrement précédemment appliqué au cluster à l'aide du<block ref="b0a869229fda0716942c6afbaa26ba2a" prefix=" " category="inline-code"></block> méthode. Cette méthode de désactivation est asynchrone et renvoie une réponse avant que le cryptage ne soit désactivé. Vous pouvez utiliser le<block ref="8edcd7780c99fc7a69b6f53d8748b0af" prefix=" " category="inline-code"></block> méthode d'interrogation du système pour voir quand le processus est terminé.</block>
   <block id="b6da302462725db65b08725e21534c35" category="inline-link-macro">obtenir la méthode d'information sur le cluster</block>
   <block id="df55ce8d5994202037ca7f6b8add22fc" category="inline-link-macro">méthode d'obtention des informations que le cluster utilise pour chiffrer les données au repos</block>
-  <block id="8645b3842f2ebbd31ef1556eca13e734" category="admonition">Pour voir l'état actuel du chiffrement au repos et/ou logiciel au repos sur le cluster, utilisez le <block ref="266af3c6722606b03dffbc748cf8f335" category="inline-link-macro-rx"></block>. Vous pouvez utiliser le<block ref="2132cae62c1d77dfa3dd7c3447c77cf5" prefix=" " category="inline-code"></block> <block ref="71cd4d0c7a8355e8bd1074b7039cdde9" category="inline-link-macro-rx"></block>.</block>
   <block id="f706c2c9f764a1928af56503f593ce7c" category="inline-link-macro">créez un nouveau cluster</block>
   <block id="03c723d3c658548008f592aa302e8409" category="admonition">Vous ne pouvez pas utiliser cette méthode pour désactiver le chiffrement logiciel au repos. Pour désactiver le chiffrement logiciel au repos, vous devez <block ref="dd0348ec8bd8a2d5cdfad96177d0413b" category="inline-link-macro-rx"></block> le chiffrement logiciel des données au repos est désactivé.</block>
   <block id="8edcd7780c99fc7a69b6f53d8748b0af" category="inline-link-macro">GetClusterInfo</block>
@@ -747,7 +744,6 @@
   <block id="a4926df300a1048acda1c427456917dd" category="paragraph">Nom utilisé pour identifier un fournisseur IDP pour l'authentification unique SAML 2.0.</block>
   <block id="0c2fa1c0ffa320e7273124b77aabbd2b" category="paragraph">IdpConfigInfo</block>
   <block id="9b275bed2e2d0a90045fbe660777ccf3" category="paragraph">Informations sur la configuration du fournisseur d'identités tiers.</block>
-  <block id="9c26e58197dbaa39e74144e77ff06a0e" category="paragraph"><block ref="9c26e58197dbaa39e74144e77ff06a0e" category="inline-link-macro-rx"></block></block>
   <block id="9f2844d812b2bc562ff2438c185d443a" category="summary">L'objet clusterAdmin contient des informations sur l'utilisateur actuel de l'administrateur de cluster. Vous pouvez récupérer les informations utilisateur admin avec la méthode GetCurrentClusterAdmin API.</block>
   <block id="beacb8921365afbd1feaf2167c77f9cb" category="paragraph">Les méthodes que cet administrateur de cluster peut utiliser.</block>
   <block id="b7393fc8533c9081513d1e4e6de4614f" category="paragraph">Le type d'autorisation dont dispose l'utilisateur admin du cluster. Valeurs possibles :</block>
@@ -2155,7 +2151,6 @@
   <block id="2d956871963e704854b5e24781df3ac6" category="paragraph">KmipKeyProviders</block>
   <block id="daed31255d43e1a9cb8957ea4827280f" category="paragraph">Liste de fournisseurs de clés KMIP créés.</block>
   <block id="af6fa3b56666058ff3f8eacb74577a16" category="inline-link-macro">KeyProviderKmip</block>
-  <block id="9e1dc08162fd6287c4fb2fdc4c4a9a0f" category="paragraph"><block ref="318d6ed2c493a66e91fc7d1db5a0f022" category="inline-link-macro-rx"></block> baie</block>
   <block id="8d7eb90f6168659c7a9bc9a1c43d5b94" category="summary">L'objet keyServerKmip décrit un serveur de clés KMIP (Key Management Interoperability Protocol \) qui est un emplacement pour récupérer les clés d'authentification à utiliser avec des fonctionnalités de cluster telles que le chiffrement au repos.</block>
   <block id="61a88e0caf79305fe57a5d8f179c1f60" category="doc">KeyServerKmip</block>
   <block id="953ce2dccb73f0688d568607fee27c28" category="paragraph">L'objet keyServerKmip décrit un serveur de clés KMIP (Key Management Interoperability Protocol), qui permet de récupérer les clés d'authentification pour les fonctionnalités de cluster telles que le chiffrement au repos.</block>
@@ -2403,7 +2398,6 @@
   <block id="a1c5aa843b544d43737e68bf101cd099" category="summary">Vous pouvez utiliser la méthode EnableEncryptionAtRest pour activer le chiffrement Advanced Encryption Standard \(AES\) 256 bits au repos sur le cluster de manière à ce que le cluster puisse gérer la clé de chiffrement utilisée pour les disques sur chaque nœud. Cette fonctionnalité n'est pas activée par défaut.</block>
   <block id="f7fbdcd0f959ea03f9c9fe10c1f436f5" category="paragraph">Vous pouvez utiliser le<block ref="b0a869229fda0716942c6afbaa26ba2a" prefix=" " category="inline-code"></block> Méthode permettant d'activer le chiffrement AES 256 bits au repos sur le cluster. Le cluster peut ainsi gérer la clé de chiffrement utilisée pour les disques sur chaque nœud. Cette fonctionnalité n'est pas activée par défaut.</block>
   <block id="9a3e77d40a36fc6582491b29c79ad64a" category="inline-link-macro">créer une méthode de cluster</block>
-  <block id="54345a69ac071e42416d101550699426" category="admonition">Cette méthode n'active pas le chiffrement logiciel au repos. Ceci peut uniquement être effectué à l'aide du <block ref="156163f61ad8e976859b5234666eb7c2" category="inline-link-macro-rx"></block> avec<block ref="8a6d1a92159080729def71f4e50f41d0" prefix=" " category="inline-code"></block> réglez sur<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>.</block>
   <block id="79c6818b5a784bd2a9784bba4752ebda" category="paragraph">Lorsque vous activez le chiffrement au repos, le cluster gère automatiquement les clés de chiffrement en interne pour les disques de chaque nœud du cluster.</block>
   <block id="06dd8c5540d025434b69c38d303f3e8a" category="paragraph">Si un keyProviderID est spécifié, le mot de passe est généré et récupéré selon le type de fournisseur de clés. Cette opération est généralement effectuée à l'aide d'un serveur de clés KMIP (Key Management Interoperability Protocol) dans le cas d'un fournisseur de clés KMIP. Après cette opération, le fournisseur spécifié est considéré comme actif et ne peut pas être supprimé tant que le chiffrement au repos n'est pas désactivé à l'aide du<block ref="7f3b1babd1f170f73cb0ff4719c65294" prefix=" " category="inline-code"></block> méthode.</block>
   <block id="0a78a222fd5e48d5331001cedecde88d" category="admonition">Si vous avez un type de nœud avec un numéro de modèle se terminant par « -ne », le<block ref="b0a869229fda0716942c6afbaa26ba2a" prefix=" " category="inline-code"></block> L'appel de méthode échouera avec une réponse de « cryptage non autorisé. Cluster détecté noeud non encryptable ».</block>
@@ -3069,7 +3063,6 @@
   <block id="64964fc47ea566f353c4e7393d54179b" category="paragraph">Nom à associer au fournisseur de clés KMIP créé. Ce nom est utilisé uniquement à des fins d'affichage et n'a pas besoin d'être unique.</block>
   <block id="c398d0b5db2ad6bd0f494cea5b8f4088" category="paragraph">KmipKeyProvider</block>
   <block id="158fc117241750b333d9029fcd379a0b" category="paragraph">Objet contenant des détails sur le fournisseur de clés nouvellement créé.</block>
-  <block id="318d6ed2c493a66e91fc7d1db5a0f022" category="paragraph"><block ref="318d6ed2c493a66e91fc7d1db5a0f022" category="inline-link-macro-rx"></block></block>
   <block id="cf1e5e6c47fce4c840b0247d8ed80e2c" category="summary">L'objet réseau \(interfaces locales\) contient des informations de configuration pour les interfaces réseau locales, telles que l'interface de bouclage, sur un nœud de stockage. Vous pouvez utiliser les méthodes getconfig et GetNetworkConfig pour obtenir ces informations pour un nœud de stockage.</block>
   <block id="c697d9db15125f51831a4dec5742bb36" category="doc">réseau (interfaces locales)</block>
   <block id="9b36ec5ac468481b83462ea0ceba2e01" category="paragraph">L'objet réseau (interfaces locales) contient des informations de configuration pour les interfaces réseau locales, telles que l'interface de bouclage, sur un nœud de stockage. Vous pouvez utiliser le<block ref="99c75895d69ac195d31248787639b95c" prefix=" " category="inline-code"></block> et<block ref="1a3ffc90bd80bd85d9dcff32aee410cf" prefix=" " category="inline-code"></block> méthodes d'obtention de ces informations pour un nœud de stockage.</block>
@@ -3407,7 +3400,6 @@
   <block id="03ca6818409054c6f788f8f1512a9a83" category="paragraph">En cas d'omission, les serveurs de clés KMIP renvoyés ne sont pas filtrés selon que le fournisseur de clés KMIP est attribué ou non.</block>
   <block id="2c1426081603fa11f6ec5fe617919158" category="paragraph">KmipKeyServers</block>
   <block id="24fdfa87efc0bd3dccff05037bf0a5e8" category="paragraph">La liste complète des serveurs de clés KMIP qui ont été créés.</block>
-  <block id="0a2a9e2ac4719c4ac6cdb0954649f468" category="paragraph"><block ref="0971c717c82e5a2659fd8ee2d73d170d" category="inline-link-macro-rx"></block> baie</block>
   <block id="3a996992f36a7c614d566e6110e1f5f2" category="summary">Les méthodes de l'API Element disponibles varient en fonction du type d'accès défini.</block>
   <block id="38df33d77360699eff8e35ad408823f6" category="paragraph">Les méthodes suivantes sont disponibles pour le type d'accès aux comptes :</block>
   <block id="200ceb26807d6bf99fd6f4f0d1ca54d4" category="section-title">administrateur</block>
@@ -3510,7 +3502,6 @@
   <block id="78acf42d4e20f5f2468d1e65f57abf33" category="paragraph">ProtectionDomainLayout</block>
   <block id="05a5c63fcd5e41bcca1f51f811155ae8" category="paragraph">Liste des nœuds, chacun avec ses domaines de protection associés.</block>
   <block id="1d3a1dce54ef68ade1513b1107abb180" category="inline-link-macro">Domaines de protection des noeuds</block>
-  <block id="239e7b7fda84773161e54a846a2d1cd4" category="paragraph">Liste JSON de <block ref="900764c76dfb916163ee11006f145e7d" category="inline-link-macro-rx"></block> objets.</block>
   <block id="5075e9a7e53d7d7085a05cf4b140fdcd" category="summary">Vous pouvez utiliser la méthode ListProtectionDomainLevels pour lister les niveaux de tolérance et de résilience du cluster de stockage. Les niveaux de tolérance indiquent la capacité du cluster à continuer la lecture et l'écriture des données en cas de défaillance, tandis que les niveaux de résilience indiquent la capacité du cluster de stockage à se réparer automatiquement après une ou plusieurs défaillances.</block>
   <block id="360a0936b808740b4210921a69a30e39" category="paragraph">Vous pouvez utiliser le<block ref="7589670fb1e468c38aadc9828cfba62b" prefix=" " category="inline-code"></block> méthode permettant de lister les niveaux de tolérance et de résilience du cluster de stockage. Les niveaux de tolérance indiquent la capacité du cluster à continuer la lecture et l'écriture des données en cas de défaillance. Les niveaux de résilience indiquent que le cluster de stockage est capable de se réparer automatiquement après une ou plusieurs défaillances.</block>
   <block id="cd281f0b54e602501f63ce54273e0eac" category="paragraph">ProtectionDomainLevels</block>
@@ -3521,7 +3512,6 @@
   <block id="b140fd3c0111005bcfc14eb207c72b2d" category="paragraph">ProtectionDomains</block>
   <block id="8182124863c7746cec9195a8d74456c3" category="paragraph">Liste des domaines de protection dont le nœud est membre.</block>
   <block id="c6faecb3ce8f08fb0dfc3519050b8527" category="inline-link-macro">ProtectionDomain</block>
-  <block id="4a7c9a0bc1a3ed41374850a08662f9a1" category="paragraph"><block ref="4a7c9a0bc1a3ed41374850a08662f9a1" category="inline-link-macro-rx"></block></block>
   <block id="12630e1acefef8b031ce34d2dc1c549d" category="summary">Vous pouvez utiliser la méthode CancelGroupClone pour arrêter un processus de clonage en cours sur un groupe de volumes. Lorsque vous annulez une opération de clonage de groupe, le système termine et supprime l’opération asynchrone associée.</block>
   <block id="0e893cf67dbf74f2f8dec053f5a95927" category="paragraph">Vous pouvez utiliser le<block ref="ce481bb60969de8d73a69076240f8f2c" prefix=" " category="inline-code"></block> méthode d'arrêt d'un processus de clonage permanent survenant sur un groupe de volumes. Lorsque vous annulez une opération de clonage de groupe, le système termine et supprime l'opération associée à EasycHandle.</block>
   <block id="ec0c715e8bfe3b143e4c2ff437e71fc8" category="paragraph">ID de clone dans le cadre du processus de clonage en cours.</block>
@@ -4471,7 +4461,6 @@
   <block id="f3856ff581517deae4c9045682768677" category="paragraph">Récupère les informations de configuration IDP pour un nom d'IDP spécifique.</block>
   <block id="cbf736cf2cf084245cf2ef853366ba11" category="paragraph">Infographies d'idpConfig</block>
   <block id="c54f92fa106774d26ba461cc1c497aae" category="paragraph">Informations sur la ou les configurations IDP tierces.</block>
-  <block id="a29f9fdde9669fd7ca1ae6b4127f82b8" category="paragraph"><block ref="9c26e58197dbaa39e74144e77ff06a0e" category="inline-link-macro-rx"></block> baie</block>
   <block id="8ee5e7345a08724cdab7fbe669e991ca" category="summary">Vous pouvez utiliser ListSchedules pour obtenir des informations sur tous les instantanés programmés qui ont été créés.</block>
   <block id="e9963c9b6b5dfa04ccfc50e0bf881bb9" category="paragraph">Vous pouvez utiliser<block ref="f253283209d723fd77f475bf40bacc16" prefix=" " category="inline-code"></block> pour obtenir des informations sur tous les instantanés programmés qui ont été créés.</block>
   <block id="70ec15bf614ceec61b217f3addfa4eba" category="paragraph">planifications</block>
@@ -5131,7 +5120,6 @@
   <block id="13a12eaece4fc3e5cb8a8919844ca623" category="inline-link-macro">Afficher ou modifier des actifs de contrôleur existants</block>
   <block id="e578d1edd1f3c874d49e1c9e76becbbc" category="list-text"><block ref="e578d1edd1f3c874d49e1c9e76becbbc" category="inline-link-macro-rx"></block></block>
   <block id="6740b5cf3dc8479800bac9edc86cd31a" category="inline-link-macro">Utilisez l'API REST pour collecter les journaux du système Element</block>
-  <block id="e6f552ff8b981823a09e603dcf005093" category="list-text"><block ref="e6f552ff8b981823a09e603dcf005093" category="inline-link-macro-rx"></block></block>
   <block id="29938f46373e7c8bf7adb5248272e85d" category="inline-link-macro">Vérifiez les versions du système d'exploitation du nœud de gestion et des services</block>
   <block id="c9676e9b030c94e7e828a060b343f3db" category="list-text"><block ref="c9676e9b030c94e7e828a060b343f3db" category="inline-link-macro-rx"></block></block>
   <block id="a5790b06c6321c773eca064d8f8b323a" category="inline-link-macro">Obtention de journaux des services de gestion</block>
@@ -5988,12 +5976,6 @@
   <block id="893da6ab703ccebc0128c2188fce2dfa" category="section-title">Comportement amélioré face aux disques défaillants</block>
   <block id="bc8064d6976a4ae417d9071be509d014" category="paragraph">Le logiciel Element 12.3 effectue régulièrement des vérifications de l'état des disques de l'appliance SolidFire à l'aide de données SMART contenues dans les disques. Un disque qui échoue à la vérification DE l'état SMART peut être proche d'une panne. Si un disque tombe en panne lors de la vérification de l'état SMART, le disque est transféré à l'état *FAILED* et une erreur de gravité critique s'affiche :<block ref="8b90a494c5eb87fe572139f67f07a422" prefix=" " category="inline-code"></block></block>
   <block id="f27e588d7a898f97a40bb017bc0cb67e" category="paragraph">SolidFire ESDS est désormais disponible sur les serveurs Dell R640. Voir la<block ref="bbf12a00ac2004a394e4a5957119453c" category="inline-link-rx"></block> pour plus d'informations sur la configuration prise en charge.</block>
-  <block id="b4eb0a7d2f620a735a49d295cf464c57" category="section-title">Nouvelle documentation pour SolidFire ESDS</block>
-  <block id="7b23dd0b7e8640cee7cc760aebda33b4" category="paragraph">La nouvelle documentation suivante est disponible pour SolidFire ESDS :</block>
-  <block id="f450dc1f11b420ef61c997b620a5ddf3" category="inline-link">Remplacez les lecteurs pour Dell R640</block>
-  <block id="0758acb395116abd9e0939201a27edd6" category="list-text"><block ref="cf3efad461dedbcc789786816f0318a6" category="inline-link-rx"></block>: Fournit les étapes de remplacement des lecteurs sur les serveurs Dell R640.</block>
-  <block id="5ecc3fdf34ca55d0377ecf551fdb9635" category="inline-link">Articles de la base de connaissances (connexion requise)</block>
-  <block id="4b88ce6903140a7f757c6509c06012dc" category="list-text"><block ref="a047a2b1ef295d12a54302870ed64e97" category="inline-link-rx"></block>: Fournit des informations sur le dépannage des problèmes avec votre système ESDS SolidFire.</block>
   <block id="295216d6678c57d5badf5770238d96b5" category="section-title">Nouvel emplacement pour les problèmes connus de SolidFire ESDS</block>
   <block id="4a5792ce9d744e9fb996d5cbb1e303d8" category="inline-link">Outil bugs Online (bogues en ligne) (connexion requise)</block>
   <block id="28bab3e7358cc261a7101ba6a439e4eb" category="paragraph">Vous pouvez maintenant rechercher des problèmes connus sur le<block ref="4010019de5d8f9d6e5f30f9d5509ab8d" category="inline-link-rx"></block>.</block>
@@ -6107,7 +6089,6 @@
   <block id="7c4a6e26b432f1ad131564bc6dc6e32d" category="inline-link">Notes de version du pack de firmware de stockage 2.27</block>
   <block id="a0b768ade98ef6cf3df956008c966806" category="list-text"><block ref="a0b768ade98ef6cf3df956008c966806" category="inline-link-rx"></block></block>
   <block id="af149d844cc5e37dba5faa0cc28a9285" category="inline-link-macro">Notes de version BMC 3.84.07 H610S</block>
-  <block id="eead60ae6beeaad1ec995f62a611e1c3" category="list-text"><block ref="eead60ae6beeaad1ec995f62a611e1c3" category="inline-link-macro-rx"></block></block>
   <block id="0e93badeabe261c69b6984cdc67bfc5d" category="summary">Découvrez les initiateurs et comment les utiliser pour autoriser l'accès au stockage dans des groupes d'accès de volume.</block>
   <block id="6430db21988dbbdfca7783c89a7710df" category="doc">Initiateurs</block>
   <block id="80d6153382e70910f8e51a18694440a4" category="paragraph">Les initiateurs permettent aux clients externes d'accéder aux volumes d'un cluster, servant de point d'entrée pour la communication entre les clients et les volumes. Vous pouvez utiliser des initiateurs pour l'accès CHAP aux volumes de stockage plutôt qu'en fonction du compte. Un seul initiateur, lorsqu'il est ajouté à un groupe d'accès de volume, permet aux membres du groupe d'accès de volume d'accéder à tous les volumes de stockage ajoutés au groupe sans nécessiter d'authentification. Un initiateur ne peut appartenir à qu'un seul groupe d'accès.</block>
@@ -6248,9 +6229,7 @@
   <block id="829222e37a81e6723ec1c8312f0896ff" category="doc">Services de gestion pour le stockage 100 % Flash de SolidFire</block>
   <block id="83221d7a8e6873bb96d6fbbd9afcf8e8" category="inline-link-macro">nœud de gestion</block>
   <block id="a818b18784f90669084d24af8a7d4d6b" category="paragraph">Depuis la version d'Element 11.3, *les services de gestion* sont hébergés sur le <block ref="5faa37a8cb9b8f7bb17a5a6af86182c8" category="inline-link-macro-rx"></block>, permettant des mises à jour plus rapides de certains services logiciels en dehors des versions majeures.</block>
-  <block id="33613f9e26b4d3202f0d812df6bedba3" category="paragraph">Avec des services de gestion centralisés et étendus pour le stockage 100 % Flash de SolidFire. Ces services incluent <block ref="53cac838271c3c6f19adc6b835ed9d5f" category="inline-link-macro-rx"></block>, Les mises à jour de télémétrie, de journalisation et de service du système Active IQ, ainsi que le service QoSSIOC pour le plug-in Element pour vCenter.</block>
   <block id="257409197ae1a07404e333be63986ac6" category="inline-link-macro">versions des services de gestion</block>
-  <block id="4651d824b0048b0eb592cc60e9dd3977" category="admonition">En savoir plus sur <block ref="873adfb4e707b3b5ed2423771a9400e1" category="inline-link-macro-rx"></block>.</block>
   <block id="ce901b945342cdd0d7ba447214c227f7" category="summary">Les fonctionnalités de protection des données incluent la réplication à distance, les copies Snapshot de volume, le clonage de volume, les domaines de protection et la haute disponibilité avec la technologie double Helix.</block>
   <block id="4fcbbf46c76894b32e527dee3ace85d8" category="paragraph">La protection des données du stockage Element repose sur plusieurs concepts :</block>
   <block id="6c475b6accd823d482c613521889419e" category="list-text"><block ref="95e714e28ad34f47d4347ab1ee96f11e" category="inline-xref-macro-rx"></block></block>
@@ -6968,8 +6947,6 @@
   <block id="99446598b3c4c3edaab96c4b623d7bf2" category="paragraph">Pour tester cette méthode, déconnectez-vous de l'interface utilisateur d'Element et reconnectez-vous en tant qu'utilisateur dans ce groupe.</block>
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">*Informations connexes*</block>
   <block id="3c524ca678d565a8dc0fadfb24ddda45" category="inline-xref-macro">Créez un compte d'administrateur de cluster</block>
-  <block id="a1245e096ef503d7567667afaa906b60" category="paragraph"><block ref="a1245e096ef503d7567667afaa906b60" category="inline-xref-macro-rx"></block></block>
-  <block id="52dc765a830c6c6b29cc239ca9482774" category="paragraph"><block ref="52dc765a830c6c6b29cc239ca9482774" category="inline-xref-macro-rx"></block></block>
   <block id="78daf6877398b6401d1c1ffb939fb968" category="summary">Vous pouvez configurer le protocole Lightweight Directory Access Protocol \(LDAP\) afin d'activer la fonctionnalité de connexion sécurisée basée sur des répertoires au stockage SolidFire. Vous pouvez configurer LDAP au niveau du cluster et autoriser des utilisateurs et des groupes LDAP.</block>
   <block id="debf1350be3d59a467ca3e2fa851b12e" category="doc">Gérez LDAP</block>
   <block id="e26cf8f0c0633f1706a4dc5e99c58a71" category="paragraph">Vous pouvez configurer le protocole LDAP (Lightweight Directory Access Protocol) pour activer la fonctionnalité de connexion sécurisée basée sur des répertoires au stockage SolidFire. Vous pouvez configurer LDAP au niveau du cluster et autoriser des utilisateurs et des groupes LDAP.</block>
@@ -7443,7 +7420,6 @@
   <block id="250f00e8767222db89298f946f97e517" category="paragraph">L'interface logicielle repose sur l'API Element.</block>
   <block id="9767ec22fca2804b6bdbd87e39200375" category="list-text"><block ref="9767ec22fca2804b6bdbd87e39200375" category="inline-link-macro-rx"></block></block>
   <block id="d3daac97e8c69781f73bcc5512cb5c2a" category="inline-link-macro">Mise à niveau des composants du système de stockage</block>
-  <block id="ecb20e3ca51440136d042527b042c2ee" category="list-text"><block ref="ecb20e3ca51440136d042527b042c2ee" category="inline-link-macro-rx"></block></block>
   <block id="6038a645307a76874f058ffe322fc4f6" category="list-text"><block ref="6038a645307a76874f058ffe322fc4f6" category="inline-link-macro-rx"></block></block>
   <block id="f22f8c5563a22eebf5e40a4e6776b17e" category="list-text"><block ref="f22f8c5563a22eebf5e40a4e6776b17e" category="inline-link-macro-rx"></block></block>
   <block id="78b427ddfeadab92101bce0e26d2af15" category="list-text"><block ref="78b427ddfeadab92101bce0e26d2af15" category="inline-link-macro-rx"></block></block>
@@ -7559,7 +7535,6 @@
   <block id="53661c1451a20d47537b1d0a00b2d7d0" category="list-text">Pour afficher les détails de toutes les alertes sur la page, cliquez sur la colonne Détails.</block>
   <block id="17597d1694bdaa4d0233e43918f0bd33" category="paragraph">Une fois que le système a résolu une alerte, toutes les informations concernant l'alerte, y compris la date à laquelle elle a été résolue, sont déplacées vers la zone résolue.</block>
   <block id="dc679f38ed2d35dde42b872d737e46db" category="list-text"><block ref="dc679f38ed2d35dde42b872d737e46db" category="inline-xref-macro-rx"></block></block>
-  <block id="8e078db9f02bd406ca631ba2825dd629" category="list-text"><block ref="8e078db9f02bd406ca631ba2825dd629" category="inline-link-macro-rx"></block></block>
   <block id="3ece7ae5b90b1695490e88f39ae15192" category="summary">Vous pouvez copier un planning et conserver ses attributs actuels.</block>
   <block id="e8225163a9436670e987686eeef978ab" category="doc">Copier un planning de snapshots</block>
   <block id="7a54c1335697b8ad2b11ec0cef0ec3b9" category="list-text">Cliquez sur *Data protection* &gt; *Schedules*.</block>
@@ -8722,7 +8697,6 @@
   <block id="28ebc10ef7c343a4cf32aacf144f1590" category="list-text">Pour le chiffrement matériel au repos, vous avez vérifié que le cluster est en état de fonctionnement avant de modifier les paramètres de chiffrement.</block>
   <block id="53f1251f9f4067bb924700bbc4f4734a" category="list-text">Si vous désactivez le cryptage, deux nœuds doivent participer à un cluster pour accéder à la clé afin de désactiver le cryptage sur un disque.</block>
   <block id="c7f9a749a25add142f440b6abf05f6c6" category="section-title">Vérifiez le chiffrement des données au repos</block>
-  <block id="cafb235222dece370f504ef5d0d47b47" category="paragraph">Pour voir l'état actuel du chiffrement au repos et/ou logiciel au repos sur le cluster, utilisez le <block ref="b94a2f1f88f1b2af0f1632fc6ab0d549" category="inline-link-macro-rx"></block> méthode. Vous pouvez utiliser le <block ref="599a2456b2fb227210a4ba9b77591706" category="inline-link-macro-rx"></block> méthode d'obtention des informations que le cluster utilise pour chiffrer les données au repos.</block>
   <block id="189f9cc5227158e41b6756a4618d70a5" category="admonition">Le tableau de bord de l'interface utilisateur du logiciel Element sur<block ref="97f434315299f13e3ec034d34efa35ba" prefix=" " category="inline-code"></block> à l'heure actuelle, le chiffrement des données au repos est uniquement affiché pour le chiffrement matériel.</block>
   <block id="6411cb076f9a57f4692e35353d26818b" category="list-text"><block ref="0536a180f702fe272c8546e4728d45b2" category="inline-xref-macro-rx"></block></block>
   <block id="4823ade0859e69629fa1e8f164c00d7d" category="list-text"><block ref="a4d311b39c82c29e83b2f7086c1e3a91" category="inline-xref-macro-rx"></block></block>
@@ -9641,7 +9615,6 @@
   <block id="94d1207223d97d0a0a9877e887c40d29" category="inline-link-macro">Modifier le mot de passe IPMI par défaut</block>
   <block id="a88b2ec4dd01d7fd61509f9c9d5bd481" category="list-text">Pour les nœuds H410C, H610C et H615C, <block ref="1d4aa273a0eca9d7d120f38c4573165c" category="inline-link-macro-rx"></block>.</block>
   <block id="9ef4592bcb5c2379e3e631deeae02163" category="inline-link-macro">Modifier le mot de passe IPM par défaut</block>
-  <block id="c406ac81de66b241c8b18e8b786204ce" category="list-text">Pour les nœuds H410S et H610S <block ref="948675b0a3c0cef9123c5f0ab6b48101" category="inline-link-macro-rx"></block>.</block>
   <block id="5da96725b80167a4658f4e9057a4cb45" category="inline-link-macro">Modifiez les informations d'identification BMC sur le nœud de gestion</block>
   <block id="57137c1e68d7300587dc9d9e4c6d107c" category="list-text"><block ref="5215e9d1d5c62231ce2eff57e0d99e18" category="inline-link-macro-rx"></block>.</block>
   <block id="409517b29e406b86b0f2e96d825034ac" category="paragraph">Identifiants ESXi</block>
@@ -9960,9 +9933,7 @@
   <block id="6a5872631c0cf8f8396f83702a5d1b69" category="inline-link">Remplacement des disques pour les nœuds de stockage de la gamme H600S</block>
   <block id="958c4b86b435f9f588d64cfab02d9a5d" category="list-text"><block ref="958c4b86b435f9f588d64cfab02d9a5d" category="inline-link-rx"></block></block>
   <block id="4ca5671d2f966d4171da24a705d584cf" category="inline-link-macro">Informations sur le matériel H410S et H610S</block>
-  <block id="24ed1c3d2fd5e7a8e8358705c065eee8" category="list-text"><block ref="24ed1c3d2fd5e7a8e8358705c065eee8" category="inline-link-macro-rx"></block></block>
   <block id="6dfd3b2bcec1f3e7fda0b3505e773fa3" category="inline-link-macro">Informations sur le matériel SF-Series</block>
-  <block id="f938a270ef0dee1673d32b1160f2268d" category="list-text"><block ref="f938a270ef0dee1673d32b1160f2268d" category="inline-link-macro-rx"></block></block>
   <block id="519eaab0aead01f8d5b1fed0eaf96948" category="summary">Vous pouvez modifier le mot de passe administrateur par défaut de l'interface IPMI (Intelligent Platform Management interface) dès que vous disposez d'un accès IPMI à distance au nœud. Vous pouvez le faire si des mises à jour d'installation sont disponibles.</block>
   <block id="f25e31c2225a621888e0e2b606fd9588" category="doc">Modifiez le mot de passe IPMI par défaut pour les nœuds</block>
   <block id="dbc5138622178ce7615472b5400dcb94" category="inline-link-macro">Configurez IPMI pour chaque nœud</block>
@@ -11950,4 +11921,27 @@
   <block id="61ad36f15eb6ab7927cdc50f6e089a98" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block> _NOUVEAU_</block>
   <block id="0e051271241f0648ba45a8ad135d030c" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block></block>
   <block id="62bad8a6f2407b7cf1f98abe9ada3dae" category="admonition">Après avoir utilisé l'API, vous devez redémarrer le nœud de gestion.</block>
+  <block id="f2803c84f404a81af41a23542245cebc" category="paragraph"><block ref="f2803c84f404a81af41a23542245cebc" category="inline-link-macro-rx"></block></block>
+  <block id="64d9e8809f33aaca7cda9d121b2b2e83" category="paragraph"><block ref="64d9e8809f33aaca7cda9d121b2b2e83" category="inline-link-macro-rx"></block></block>
+  <block id="19f47154ff3c9f0fcf8147cd2369d029" category="paragraph"><block ref="19f47154ff3c9f0fcf8147cd2369d029" category="inline-link-macro-rx"></block></block>
+  <block id="0e9706d9713372bb21a3b9f917953dbc" category="paragraph">Liste JSON de <block ref="5820461afa2bd9ee99130d755eddf7ff" category="inline-link-macro-rx"></block> objets.</block>
+  <block id="1e924e133c06d37b8d10cb78b719f4ce" category="paragraph"><block ref="1e924e133c06d37b8d10cb78b719f4ce" category="inline-link-macro-rx"></block></block>
+  <block id="0aa7fde71cfb5413015e45fa45075fd0" category="admonition">Pour voir l'état actuel du chiffrement au repos et/ou logiciel au repos sur le cluster, utilisez le <block ref="d274ae55f8f22fd98ab9b057453f6128" category="inline-link-macro-rx"></block>. Vous pouvez utiliser le<block ref="2132cae62c1d77dfa3dd7c3447c77cf5" prefix=" " category="inline-code"></block> <block ref="bd5bc3e1755ad5880958398f3551c67d" category="inline-link-macro-rx"></block>.</block>
+  <block id="08e683c68442f500782b3d5486530a71" category="admonition">Cette méthode n'active pas le chiffrement logiciel au repos. Ceci peut uniquement être effectué à l'aide du <block ref="d203a09ebf9d1da1010b557da816049a" category="inline-link-macro-rx"></block> avec<block ref="8a6d1a92159080729def71f4e50f41d0" prefix=" " category="inline-code"></block> réglez sur<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>.</block>
+  <block id="ddaca3871ebb2bf3f0b1cb11f4c6a4ea" category="paragraph"><block ref="ddaca3871ebb2bf3f0b1cb11f4c6a4ea" category="inline-link-macro-rx"></block></block>
+  <block id="954e95e0241c7b3a74f9c6a194795355" category="admonition">Pour voir l'état actuel du chiffrement au repos et/ou logiciel au repos sur le cluster, utilisez le <block ref="51ab6f075e7b9b2d3276f61c0b11b186" category="inline-link-macro-rx"></block>. Vous pouvez utiliser le<block ref="2132cae62c1d77dfa3dd7c3447c77cf5" prefix=" " category="inline-code"></block> <block ref="e5fb14b37e1fdc8a835f7ed4e33c1c63" category="inline-link-macro-rx"></block>.</block>
+  <block id="342c0e2d839abf3902ec2e2ba9a391e5" category="paragraph"><block ref="19f47154ff3c9f0fcf8147cd2369d029" category="inline-link-macro-rx"></block> baie</block>
+  <block id="f1e1734ea4e6ef5a6bd73e15cffa128a" category="paragraph"><block ref="f2803c84f404a81af41a23542245cebc" category="inline-link-macro-rx"></block> baie</block>
+  <block id="2896bd9b7f534d42f996fc5910e2ad40" category="paragraph"><block ref="ddaca3871ebb2bf3f0b1cb11f4c6a4ea" category="inline-link-macro-rx"></block> baie</block>
+  <block id="89291581fd8be1d9caf505e74fd0773e" category="list-text"><block ref="89291581fd8be1d9caf505e74fd0773e" category="inline-link-macro-rx"></block></block>
+  <block id="a339aaae279fb4166b4ea4a6575b8e54" category="list-text"><block ref="a339aaae279fb4166b4ea4a6575b8e54" category="inline-link-macro-rx"></block></block>
+  <block id="bc392d110b36a51cd536073024a5f532" category="list-text">Pour les nœuds H410S et H610S <block ref="1ed294287e7a2515c794c51e2936136d" category="inline-link-macro-rx"></block>.</block>
+  <block id="dcf69453f88a169ec3e3e6fae67d435e" category="list-text"><block ref="dcf69453f88a169ec3e3e6fae67d435e" category="inline-link-macro-rx"></block></block>
+  <block id="07e6fbc1d94748a67b7280d5169aff78" category="paragraph">Pour voir l'état actuel du chiffrement au repos et/ou logiciel au repos sur le cluster, utilisez le <block ref="4ba6dd2d59030fb9ee4b6523df69086c" category="inline-link-macro-rx"></block> méthode. Vous pouvez utiliser le <block ref="6a83460526e11b52e54477d344b49b7d" category="inline-link-macro-rx"></block> méthode d'obtention des informations que le cluster utilise pour chiffrer les données au repos.</block>
+  <block id="521e8e8587c418fa92f54811f8954007" category="list-text"><block ref="521e8e8587c418fa92f54811f8954007" category="inline-link-macro-rx"></block></block>
+  <block id="ecec8bb5649856a856a861a75e4daa84" category="list-text"><block ref="ecec8bb5649856a856a861a75e4daa84" category="inline-link-macro-rx"></block></block>
+  <block id="24786d5c66286f468be80b26d8f4126b" category="list-text"><block ref="24786d5c66286f468be80b26d8f4126b" category="inline-link-rx"></block></block>
+  <block id="08bedb070b17681cfbba927034b3d77e" category="paragraph">Avec des services de gestion centralisés et étendus pour le stockage 100 % Flash de SolidFire. Ces services incluent <block ref="c33469c22ade8b91ea5a2e4b6de19fdf" category="inline-link-macro-rx"></block>, Les mises à jour de télémétrie, de journalisation et de service du système Active IQ, ainsi que le service QoSSIOC pour le plug-in Element pour vCenter.</block>
+  <block id="afb54c94a5e9aef322532eabe176c2d4" category="admonition">En savoir plus sur <block ref="8a1a0a32384afdd6d93db2e7c4f512ad" category="inline-link-macro-rx"></block>.</block>
+  <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
 </blocks>

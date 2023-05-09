@@ -194,16 +194,6 @@ SolidFire ESDS est désormais disponible sur les serveurs Dell R640. Voir la htt
 
 
 
-=== Nouvelle documentation pour SolidFire ESDS
-
-La nouvelle documentation suivante est disponible pour SolidFire ESDS :
-
-* https://docs.netapp.com/us-en/element-software/esds/task_esds_r640_drive_repl.html["Remplacez les lecteurs pour Dell R640"^]: Fournit les étapes de remplacement des lecteurs sur les serveurs Dell R640.
-* https://kb.netapp.com/Special:Search?query=solidfire+enterprise+SDS&type=wiki["Articles de la base de connaissances (connexion requise)"^]: Fournit des informations sur le dépannage des problèmes avec votre système ESDS SolidFire.
-
-
-
-
 === Nouvel emplacement pour les problèmes connus de SolidFire ESDS
 
 Vous pouvez maintenant rechercher des problèmes connus sur le https://mysupport.netapp.com/site/products/all/details/solidfire-enterprise-sds/bugsonline-tab["Outil bugs Online (bogues en ligne) (connexion requise)"^].
