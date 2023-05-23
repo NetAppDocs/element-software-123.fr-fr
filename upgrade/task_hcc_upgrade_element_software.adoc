@@ -596,7 +596,7 @@ Vous pouvez utiliser la suite d'outils HealthTools pour mettre à jour le logici
 
 NOTE: Pour mettre à niveau le logiciel de stockage Element, vous avez besoin de la dernière version de HealthTools.
 
-. Téléchargez-le https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["Fichier JSON"^] (https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740)[] Sur le site de support NetApp d'un ordinateur qui n'est pas le nœud de gestion, puis renommez-le en `metadata.json`.
+. Téléchargez-le https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["Fichier JSON"^]  Sur le site de support NetApp d'un ordinateur qui n'est pas le nœud de gestion, puis renommez-le en `metadata.json`.
 . Copiez le fichier ISO vers le nœud de gestion dans un emplacement accessible comme `/tmp`.
 +
 
