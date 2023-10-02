@@ -6035,7 +6035,6 @@
   <block id="f8baaa336de0b43c94445176248817a5" category="admonition">Vous serez invité à vous connecter à l'aide de vos identifiants du support NetApp.</block>
   <block id="3938cfdbe176bad61cedb25bdb572858" category="section-title">Logiciel NetApp Element</block>
   <block id="56570048e2475ec7b64ee91388743714" category="inline-link">Notes de version du logiciel NetApp Element 12.3.2</block>
-  <block id="3903fc6a9f0bcbe1f49608f5110cf661" category="list-text"><block ref="9de5606ae9b23ff6651244b85bd5dae8" category="inline-link-rx"></block> _NOUVEAU_</block>
   <block id="7199e7988a06a61dd6614783601855bd" category="inline-link">Notes de version du logiciel NetApp Element 12.3.1</block>
   <block id="9add94ad0bafb6a0c0977e09efa22b79" category="list-text"><block ref="9add94ad0bafb6a0c0977e09efa22b79" category="inline-link-rx"></block></block>
   <block id="325c4db41bea4b4c5bc841d336b08e32" category="inline-link">Notes de version du logiciel NetApp Element 12.3</block>
@@ -6049,7 +6048,6 @@
   <block id="1cace3c036a290ab8ee91dddebd361d0" category="inline-link">Notes de version du logiciel NetApp Element 12.0</block>
   <block id="4489a95481ba0e8e951ca2cdc4403b89" category="list-text"><block ref="4489a95481ba0e8e951ca2cdc4403b89" category="inline-link-rx"></block></block>
   <block id="b7fe022e3d13a1a7248fb1583851f437" category="inline-link">Notes de version du logiciel NetApp Element 11.8.2</block>
-  <block id="96a6137975cbcfe6dbff95b85cf1b6bf" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block> _NOUVEAU_</block>
   <block id="0f0e809fbd346b6319776f0b02355216" category="inline-link">Notes de version du logiciel NetApp Element 11.8.1</block>
   <block id="6ae2e484807ab9e500e1e9aa73aa6354" category="list-text"><block ref="6ae2e484807ab9e500e1e9aa73aa6354" category="inline-link-rx"></block></block>
   <block id="c238b8c4c43e1a2c0a7fa4b0128df200" category="inline-link">Notes de version du logiciel NetApp Element 11.8</block>
@@ -10622,8 +10620,6 @@
   <block id="f523905d48a1db956815565365a5a6ad" category="admonition">Cette action crée une nouvelle base de données et termine l'installation dans vSphere Web client.</block>
   <block id="9b572df8237d34b7c32142ac15f1325f" category="list-text">Dans le client Web vSphere, recherchez les tâches terminées suivantes dans le moniteur des tâches pour vous assurer que l'installation est terminée :<block ref="ec6215521ab965944e6a3eeb6b9ab6f1" prefix=" " category="inline-code"></block> et<block ref="0f5814fb45e88fb5a7d984788675e425" prefix=" " category="inline-code"></block>.</block>
   <block id="d471727ba1fb423986701d5307906d08" category="list-text">Vérifiez que les points d'extension du plug-in apparaissent dans l'onglet *raccourcis* de vSphere Web client et dans le panneau latéral.</block>
-  <block id="3c4718429a8a2991d56e6e719c1942df" category="image-alt">La illustre les points d'extension du plug-in après une mise à niveau ou une installation réussie pour le plug-in Element 5.10 ou version ultérieure</block>
-  <block id="85406fb94df2ff523b7477f229b1c9c8" category="image-alt">La illustre les points d'extension du plug-in après une mise à niveau ou une installation réussie pour le plug-in Element 4.10 ou version antérieure</block>
   <block id="a0abd6db969f497b63a29f8fbd1771df" category="inline-link-macro">Plug-in Element pour vCenter Server</block>
   <block id="5e98629f8afe2eee1c27355eb45a80e0" category="paragraph">Si les icônes du plug-in vCenter ne sont pas visibles, reportez-vous à la section <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> documentation sur le dépannage du plug-in.</block>
   <block id="726e3510e2c172eed6861f3e6d271360" category="paragraph">Après la mise à niveau vers le plug-in NetApp Element pour vCenter Server 4.8 ou version ultérieure avec VMware vCenter Server 6.7U1, si les clusters de stockage ne sont pas répertoriés ou si une erreur de serveur apparaît dans les sections *clusters* et *Paramètres QoSSIOC* de la configuration NetApp Element, voir <block ref="c907b125bbc711015f83b735f4697e97" category="inline-link-macro-rx"></block> documentation sur le dépannage de ces erreurs.</block>
@@ -11873,7 +11869,6 @@
   <block id="f77430f8b3c4f14f1dcd175dca1d54cf" category="paragraph">Vous devez effectuer une mise à niveau vers le plug-in NetApp Element pour vCenter Server 5.0 ou version ultérieure pour pouvoir déployer le plug-in avec VMware vCenter 7.0 Update 3 sans avoir à appliquer de solution de contournement.</block>
   <block id="4af99aa6c1be006a7c064cb06b9464ac" category="cell">Tous les clusters exécutant Element 11.8 et versions ultérieures</block>
   <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">Cette procédure de mise à niveau couvre les scénarios de mise à niveau suivants :</block>
-  <block id="3a2bbd221f9a6d667af34b16ef1c1a32" category="list-text">Vous effectuez une mise à niveau vers Element Plug-in pour vCenter Server 5.1 ou 5.0.</block>
   <block id="609cfd925544c2aaccb703dcb95eed4d" category="admonition">Lorsque vous effectuez une mise à niveau d'Element Plug-in pour vCenter Server 4.x vers 5.x, les clusters déjà configurés avec le plug-in sont perdus car les données ne peuvent pas être copiées d'une instance vCenter vers un plug-in distant. Vous devez ajouter à nouveau les clusters au plug-in distant. Il s'agit d'une activité ponctuelle lors de la mise à niveau d'un plug-in local vers un plug-in distant.</block>
   <block id="4edf62fd94cfb84b727afbee52aa8128" category="list-text">Page d'enregistrement du plug-in vCenter pour Element Plug-in pour vCenter Server 5.x :</block>
   <block id="0ac35a688d7a23e1caba58dbbf08c4d7" category="paragraph">L'onglet *Storage* répertorie les clusters de stockage qui font partie de votre installation. Si un cluster n'est pas accessible via NetApp Hybrid Cloud Control, il ne s'affiche pas sur la page *mises à niveau*. Si vous avez des clusters exécutant Element 12.0 ou une version ultérieure, la version actuelle des packs de firmware est répertoriée pour ces clusters. Si les nœuds d'un cluster ont des versions de micrologiciel différentes ou lorsque la mise à niveau progresse, vous verrez *multiple* dans la colonne *version actuelle du bundle de micrologiciels*. Vous pouvez sélectionner *multiple* pour accéder à la page *Nodes* pour comparer les versions du micrologiciel. Si tous les clusters exécutent des versions Element avant la version 12.0, aucune information concernant les numéros de version des packs de firmware n'apparaît.</block>
@@ -11904,7 +11899,6 @@
   <block id="a6c060b483d31ea611debe971d6648f2" category="paragraph">Le <block ref="0e7e722b98bf8cba65c74d44d6ffe2e6" category="inline-link-macro-rx"></block> Supprime le certificat SSL et la clé privée actuellement installés. Le cluster génère alors un nouveau certificat auto-signé et une nouvelle clé privée.</block>
   <block id="b59339c29a0a5c439aaf31d01a32ea3a" category="list-text"><block ref="b59339c29a0a5c439aaf31d01a32ea3a" category="inline-link-macro-rx"></block></block>
   <block id="54db42757b5d75d2f660dc70f35850cf" category="inline-link">Notes de version du plug-in vCenter 5.1</block>
-  <block id="61ad36f15eb6ab7927cdc50f6e089a98" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block> _NOUVEAU_</block>
   <block id="0e051271241f0648ba45a8ad135d030c" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block></block>
   <block id="62bad8a6f2407b7cf1f98abe9ada3dae" category="admonition">Après avoir utilisé l'API, vous devez redémarrer le nœud de gestion.</block>
   <block id="f2803c84f404a81af41a23542245cebc" category="paragraph"><block ref="f2803c84f404a81af41a23542245cebc" category="inline-link-macro-rx"></block></block>
@@ -11939,4 +11933,14 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="9de5606ae9b23ff6651244b85bd5dae8" category="list-text"><block ref="9de5606ae9b23ff6651244b85bd5dae8" category="inline-link-rx"></block></block>
+  <block id="5ed2b0be7714cf9bfe94c6d0660549bb" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block></block>
+  <block id="ce397f79b5032c3e327db3efe5a6048a" category="inline-link">Notes de version du plug-in vCenter 5.2</block>
+  <block id="4718467fa890cd0dcf159b3d461cedbe" category="list-text"><block ref="6bd87cf3d55c2ead3ab585e965bea4db" category="inline-link-rx"></block> _NOUVEAU_</block>
+  <block id="410ecb079e286058eeb2bc6b56d9379c" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block></block>
+  <block id="faf6c38631911f7840c3498b4ec9f746" category="inline-link-macro">Avis concernant les services de gestion 2.24.40 (plug-in NetApp Element pour VMware vCenter Server 5.2.12)</block>
+  <block id="db3a980db6ffcc2055052c6c4a453020" category="list-text"><block ref="db3a980db6ffcc2055052c6c4a453020" category="inline-link-macro-rx"></block></block>
+  <block id="eea7cb3a63edf642e1f15162351dfce7" category="list-text">Vous effectuez une mise à niveau vers Element Plug-in pour vCenter Server 5.2, 5.1 ou 5.0.</block>
+  <block id="c9c6a2f6fa07c1f8c580586914c37e79" category="image-alt">Décrit les points d'extension du plug-in après une mise à niveau ou une installation réussie pour Element Plug-in 5.1 ou version ultérieure</block>
+  <block id="f35f89119a6374d18bd89e0103590c61" category="image-alt">Décrit les points d'extension du plug-in après une mise à niveau ou une installation réussie pour Element Plug-in 4.10 ou version antérieure</block>
 </blocks>
