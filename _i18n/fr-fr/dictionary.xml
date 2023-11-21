@@ -6,8 +6,6 @@
   <block id="da3eb0bd8c882a21931739ac39ce915a" category="inline-link">Documentation du plug-in NetApp Element pour vCenter Server</block>
   <block id="c557278939ddfc5c37a8606a5b8bc3d8" category="paragraph">Pour en savoir plus sur le plug-in Element pour vCenter Server, consultez le<block ref="4a40fe421733073daff96e428d226590" category="inline-link-rx"></block>.</block>
   <block id="d13de4a83d7b44c2e65495def8ef1c7b" category="section-title">Pour en savoir plus</block>
-  <block id="631923a687ff82d68973d99b95597b47" category="inline-link">Page Ressources SolidFire et Element</block>
-  <block id="238c5b123e3473c57e2925edccb205c2" category="list-text"><block ref="238c5b123e3473c57e2925edccb205c2" category="inline-link-rx"></block></block>
   <block id="af4db8af5ad6d2dba8e6838cf2e4423b" category="summary">Vous pouvez utiliser la méthode AddIpdClusterAdmin pour ajouter un utilisateur administrateur de cluster authentifié par un fournisseur d'identité tiers \(IDP\). Les comptes d'administration du cluster IDP sont configurés en fonction des informations relatives à la valeur des attributs SAML fournies dans l'assertion SAML du IDP associée à l'utilisateur. Si un utilisateur s'authentifie avec succès auprès du IDP et dispose d'instructions d'attribut SAML au sein de plusieurs comptes d'administrateur de cluster IDP, l'utilisateur aura le niveau d'accès combiné des comptes d'administrateur de cluster IDP correspondant.</block>
   <block id="39702664e366f0c946b0483d87c507b5" category="doc">AddIdpClusterAdmin</block>
   <block id="2cef234a34ca8e70c6e06a449cb66f71" category="paragraph">Vous pouvez utiliser le<block ref="6242f41ca108dc289762bfe9d1726096" prefix=" " category="inline-code"></block> Méthode d'ajout d'un utilisateur administrateur de cluster authentifié par un fournisseur d'identités tiers. Les comptes d'administration du cluster IDP sont configurés en fonction des informations relatives à la valeur des attributs SAML fournies dans l'assertion SAML associée à l'utilisateur. Si un utilisateur s'authentifie avec succès auprès du IDP et dispose d'instructions d'attribut SAML au sein de plusieurs comptes d'administrateur de cluster IDP, l'utilisateur aura le niveau d'accès combiné des comptes d'administrateur de cluster IDP correspondant.</block>
@@ -391,8 +389,6 @@
   <block id="6ab62d383908172ba1559c687cc9e79d" category="list-text"><block ref="6ab62d383908172ba1559c687cc9e79d" category="inline-xref-macro-rx"></block></block>
   <block id="fe0ac658f2ed85de2fb9de9021e54f11" category="inline-xref-macro">Réyncrelation SnapMirrorCet</block>
   <block id="141218207edca3157cfd1fdfb14ea44d" category="list-text"><block ref="141218207edca3157cfd1fdfb14ea44d" category="inline-xref-macro-rx"></block></block>
-  <block id="1c1519037df87ff4dd08fe6e757ff03f" category="inline-link">Page des ressources NetApp SolidFire</block>
-  <block id="abc0c04174a58217258765895984ed4e" category="list-text"><block ref="abc0c04174a58217258765895984ed4e" category="inline-link-rx"></block></block>
   <block id="89e3bb4cf03209dcb9c85e2455cde9c3" category="inline-link">Documentation relative aux versions antérieures des produits NetApp SolidFire et Element</block>
   <block id="461166164223a1234073a2c9d388d33a" category="list-text"><block ref="461166164223a1234073a2c9d388d33a" category="inline-link-rx"></block></block>
   <block id="5bca61520bd936a82d1e115d323d5a60" category="summary">Vous pouvez utiliser la méthode TestLdapAuthentication pour valider les paramètres d'authentification LDAP actuellement activés. Si la configuration est correcte, l'appel API renvoie l'appartenance au groupe de l'utilisateur testé.</block>
@@ -804,8 +800,6 @@
   <block id="a1ecf7be27d0987baa26a8bff8653ff6" category="list-text"><block ref="a1ecf7be27d0987baa26a8bff8653ff6" category="inline-xref-macro-rx"></block></block>
   <block id="93be4895c86d760e8bbee3a36d256dc1" category="inline-xref-macro">Exemples de réponse</block>
   <block id="c2c075d7ecfea2a1a630498ac1110e78" category="list-text"><block ref="c2c075d7ecfea2a1a630498ac1110e78" category="inline-xref-macro-rx"></block></block>
-  <block id="b0cda36836b6d8e27c36c8d9d6b48f3a" category="inline-link">Page des ressources de stockage 100 % Flash de SolidFire</block>
-  <block id="a980426853b5ccc1de52aeb0b0ae0463" category="list-text"><block ref="a980426853b5ccc1de52aeb0b0ae0463" category="inline-link-rx"></block></block>
   <block id="d25459b3c5acd2943fae1e5fda4cfa22" category="inline-link">Centre de documentation des logiciels SolidFire et Element</block>
   <block id="024c22e90f2315636ed8d61b006ad1b5" category="list-text"><block ref="024c22e90f2315636ed8d61b006ad1b5" category="inline-link-rx"></block></block>
   <block id="9076f9fa02beaeb9f187ec20875c8a90" category="summary">L'objet keyProviderKmip décrit un fournisseur de clés KMIP (Key Management Interoperability Protocol). Un fournisseur clé est un mécanisme et un emplacement pour récupérer les clés d'authentification et les utiliser avec les fonctionnalités du cluster telles que le chiffrement au repos.</block>
@@ -11942,4 +11936,8 @@
   <block id="da610458ca77f95bd33552584272f2c8" category="sidebar">Mettez à niveau votre système de stockage 100 % Flash NetApp SolidFire version Element 12.3.x.</block>
   <block id="c04c3f3380a29245247f6e8a6c77a880" category="paragraph">Vous devrez peut-être autoriser les ports TCP et UDP suivants via le pare-feu de périphérie de votre centre de données pour pouvoir gérer le système à distance et permettre aux clients situés à l'extérieur de votre centre de données de se connecter aux ressources. Certains de ces ports peuvent ne pas être requis, selon l'utilisation du système.</block>
   <block id="331d6d490990c63b2cee0dc04fe2589b" category="paragraph">Tous les ports sont TCP, sauf indication contraire, et tous les ports TCP doivent prendre en charge la communication de liaison tridirectionnelle entre le serveur de support NetApp, le nœud de gestion et les nœuds exécutant le logiciel Element. Par exemple, l'hôte d'une source de nœud de gestion communique avec l'hôte d'une destination MVIP de cluster de stockage via le port TCP 443, et l'hôte de destination communique de nouveau avec l'hôte source via n'importe quel port.</block>
+  <block id="5858de35bb153f56bdb4f3fbd003b515" category="list-text"><block ref="5858de35bb153f56bdb4f3fbd003b515" category="inline-link-rx"></block></block>
+  <block id="e6344f017ebc6c23de294cbd0c5b3ec0" category="image-alt">Vue Paramètres généraux des serveurs LDAP</block>
+  <block id="bf0a897972fda4244e862fc7b7474446" category="image-alt">Créer une nouvelle vue utilisateur</block>
+  <block id="f4029885f6f8ac69ff0c61a3a67af4dc" category="sidebar">Un système de stockage 100 % Flash SolidFire comprend des composants matériels, tels que des disques et des nœuds, qui sont combinés dans un pool de ressources de stockage. En utilisant l'interface Element, l'API ou d'autres outils de gestion, vous pouvez gérer ces clusters de ressources de stockage avec le logiciel NetApp Element. Ce site contient la documentation du logiciel Element 12.3.x.</block>
 </blocks>
