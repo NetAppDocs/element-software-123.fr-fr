@@ -19,6 +19,9 @@ Grâce à la mise à niveau séquentielle de tous les composants de stockage Net
 
 Parmi ces composants : les services de gestion, HealthTools, NetApp Hybrid Cloud Control, le logiciel Element, le nœud de gestion et (selon l'installation) le plug-in Element pour vCenter Server.
 
+
+NOTE: À partir du 2023 novembre, vous ne pouvez pas démarrer de mise à niveau de composant à l'aide de NetApp Hybrid Cloud Control ou de l'API REST, car les certificats de clé de signature (privé et public) ont expiré le 5 novembre 2023. Vous pouvez résoudre ce problème en suivant la solution de contournement décrite dans l'article de la base de connaissances https://kb.netapp.com/onprem/solidfire/Element_OS/SolidFire_and_HCI_upgrades_unable_to_start_due_to_upgrade_package_upload_error["Les mises à niveau de SolidFire et de HCI ne peuvent pas démarrer en raison d'une erreur de téléchargement du pack de mise à niveau"^].
+
 Le <<sys_upgrade,séquence de mise à niveau du système>> Nous décrivons dans les tâches nécessaires à la mise à niveau d'un système de stockage 100 % Flash SolidFire. Idéalement, ces procédures sont exécutées dans le cadre d'une séquence de mise à niveau plus importante et non isolément. Si une mise à niveau ou une mise à jour basée sur les composants est nécessaire, reportez-vous aux conditions préalables requises pour vous assurer que des complexités supplémentaires sont traitées.
 
 Le link:task_sf_upgrade_all_vsphere.html["Séquence de mise à niveau de vSphere"] L'ajout du contenu du plug-in Element pour vCenter Server décrit les étapes supplémentaires requises pour la préinstallation et la post-mise à niveau pour vCenter Server.
