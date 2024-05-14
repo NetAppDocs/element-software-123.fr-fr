@@ -11921,11 +11921,9 @@
   <block id="9de5606ae9b23ff6651244b85bd5dae8" category="list-text"><block ref="9de5606ae9b23ff6651244b85bd5dae8" category="inline-link-rx"></block></block>
   <block id="5ed2b0be7714cf9bfe94c6d0660549bb" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block></block>
   <block id="ce397f79b5032c3e327db3efe5a6048a" category="inline-link">Notes de version du plug-in vCenter 5.2</block>
-  <block id="4718467fa890cd0dcf159b3d461cedbe" category="list-text"><block ref="6bd87cf3d55c2ead3ab585e965bea4db" category="inline-link-rx"></block> _NOUVEAU_</block>
   <block id="410ecb079e286058eeb2bc6b56d9379c" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block></block>
   <block id="faf6c38631911f7840c3498b4ec9f746" category="inline-link-macro">Avis concernant les services de gestion 2.24.40 (plug-in NetApp Element pour VMware vCenter Server 5.2.12)</block>
   <block id="db3a980db6ffcc2055052c6c4a453020" category="list-text"><block ref="db3a980db6ffcc2055052c6c4a453020" category="inline-link-macro-rx"></block></block>
-  <block id="eea7cb3a63edf642e1f15162351dfce7" category="list-text">Vous effectuez une mise à niveau vers Element Plug-in pour vCenter Server 5.2, 5.1 ou 5.0.</block>
   <block id="c9c6a2f6fa07c1f8c580586914c37e79" category="image-alt">Décrit les points d'extension du plug-in après une mise à niveau ou une installation réussie pour Element Plug-in 5.1 ou version ultérieure</block>
   <block id="f35f89119a6374d18bd89e0103590c61" category="image-alt">Décrit les points d'extension du plug-in après une mise à niveau ou une installation réussie pour Element Plug-in 4.10 ou version antérieure</block>
   <block id="1583ff28675a9e24a50fa1079a5dd985" category="paragraph"><block ref="43638993383f845bcd8925bd4e266bc9" prefix="" category="inline-code"></block></block>
@@ -11942,4 +11940,10 @@
   <block id="df0f8acf74958be223bdd3dabcce5038" category="inline-link">Les mises à niveau de SolidFire et de HCI ne peuvent pas démarrer en raison d'une erreur de téléchargement du pack de mise à niveau</block>
   <block id="b9bbae8efe5c0f15ffba3f05d619b861" category="admonition">À partir du 2023 novembre, vous ne pouvez pas démarrer de mise à niveau de composant à l'aide de NetApp Hybrid Cloud Control ou de l'API REST, car les certificats de clé de signature (privé et public) ont expiré le 5 novembre 2023. Vous pouvez résoudre ce problème en suivant la solution de contournement décrite dans l'article de la base de connaissances<block ref="43e83b9864cac922c7475bad0e74a40f" category="inline-link-rx"></block>.</block>
   <block id="9f94ad22fed97f22703d9d145f565bfb" category="paragraph">Vous pouvez utiliser le<block ref="e7d385ef5ac889916654bf5f865952f1" prefix=" " category="inline-code"></block> méthode de retrait proactif des disques faisant partie du cluster Vous pouvez utiliser cette méthode pour réduire la capacité du cluster ou préparer le remplacement des disques presque en fin de vie.<block ref="e7d385ef5ac889916654bf5f865952f1" prefix=" " category="inline-code"></block> Crée une troisième copie des données de bloc sur les autres nœuds du cluster et attend la fin de la synchronisation avant de déplacer les disques vers la liste « disponible ». Les lecteurs de la liste « disponible » sont complètement supprimés du système et ne disposent pas de services en cours d'exécution ni de données actives.</block>
+  <block id="d3c4a89052a32dd9783dd119f30d6d47" category="inline-link">Notes de version du plug-in vCenter 5.3</block>
+  <block id="0c21440ced3ddae10d1eea32870fdf02" category="list-text"><block ref="ce90fd614158a5c7e0a42a5908fa1cd7" category="inline-link-rx"></block> _NOUVEAU_</block>
+  <block id="6bd87cf3d55c2ead3ab585e965bea4db" category="list-text"><block ref="6bd87cf3d55c2ead3ab585e965bea4db" category="inline-link-rx"></block></block>
+  <block id="bef71f962ff7a233f3e8439eeb8dac70" category="list-text">Vous effectuez une mise à niveau vers Element Plug-in pour vCenter Server 5.3, 5.2, 5.1 ou 5.0.</block>
+  <block id="976b368b923346c8ea4ccc71e72749f5" category="inline-link-macro">Avis concernant les services de gestion 2.25.42 (plug-in NetApp Element pour VMware vCenter Server 5.3.9)</block>
+  <block id="4d67cefe38dafa645f353279e4fbc37b" category="list-text"><block ref="4d67cefe38dafa645f353279e4fbc37b" category="inline-link-macro-rx"></block></block>
 </blocks>
